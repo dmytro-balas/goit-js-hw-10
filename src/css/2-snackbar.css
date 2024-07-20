@@ -1,57 +1,89 @@
+@import "izitoast/dist/css/iziToast.min.css";
+
+
+body {
+    background: #fff;
+    width: 1128px;
+    margin-top: 36px;
+    margin-left: 156px;
+    height: auto;
+}
+
+
+.link-home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
 .form {
-    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
     width: 360px;
+    height: 72px;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2e2f42;
+    gap: 24px;
 }
 
-.delay-input {
-    box-sizing: border-box;
+legend {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding-left: 12px;
+}
+
+
+.wrap {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px 12px 48px;
     width: 360px;
     height: 40px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    /* stroke-width: 1px; */
+    /* stroke: #808080; */
+}
+
+.first-input {
     border: 1px solid #808080;
     border-radius: 4px;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    padding-left: 8px;
+    width: 360px;
+    height: 40px;
 }
 
-.delay-input:hover {
-    border-color: #000000;
+.lbl-wrap {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+
 }
 
-.delay-input:active {
-    border-color: #4E75FF;
-}
 
-.fieldset {
-    box-sizing: border-box;
-    padding: 24px 48px 8px 48px;
-    border: 1px solid #808080;
-    border-radius: 4px;
-    margin-bottom: 24px;
-}
 
-.rejected-input {
-    box-sizing: border-box;
-    margin-left: 48px;
-}
-
-button {
+.btn-sub {
     border-radius: 8px;
-    border: transparent;
     padding: 8px 16px;
     width: 360px;
     height: 40px;
     background: #4e75ff;
-    color: #fff;
-    font-family: inherit;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-}
-
-button:hover {
-    background: #6c8cff;;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
 }
